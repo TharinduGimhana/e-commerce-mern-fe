@@ -26,14 +26,14 @@ export const Navbar = () => {
             setMenu("Men");
           }}
         >
-          <Link style={{textDecoration: 'none'}} to="/men">Men</Link> {menu === "Men" ? <hr /> : <></>}
+          <Link style={{textDecoration: 'none'}} to="/mens">Men</Link> {menu === "Men" ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
             setMenu("Women");
           }}
         >
-          <Link style={{textDecoration: 'none'}} to="/women">Women</Link> {menu === "Women" ? <hr /> : <></>}
+          <Link style={{textDecoration: 'none'}} to="/womens">Women</Link> {menu === "Women" ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
